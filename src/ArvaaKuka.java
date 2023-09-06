@@ -22,11 +22,16 @@ public class ArvaaKuka {
 			else
 			{
 				System.out.println("Congrats!\nYou guessed " + guess + " times");
+				break;
 			}
 		}
+		
 		while(!vastaus.equals("stop"));
+		
+		if (vastaus.equals("stop"))
 			{
-			
+			guess--;
+			System.out.println("You guessed " + guess + "times");
 			}
 		
 		
