@@ -14,6 +14,15 @@ public class ArvaaKuka {
 		{
 			System.out.println("Guess my name (type stop to exit)");
 			vastaus = in.nextLine();
+			guess++;
+			if (!vastaus.equals("Mike"))
+			{
+				
+			}
+			else
+			{
+				System.out.println("Congrats!\nYou guessed " + guess + " times");
+			}
 		}
 		while(!vastaus.equals("stop"));
 			{
